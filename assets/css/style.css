@@ -221,17 +221,35 @@ html {
 
 /* Media Queries */
 @media screen and (max-width: 980px) {
+    .mainwidth {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .maincontent{
+        width: 388px;
+    }
+
+    /* About Me */
     .myphoto {
-        height: 200px;
-        width: 200px;
         margin-right: 20px;
         margin-bottom: 20px;
+        display: block;
+        float: none;
     }
+
+    /* Portfolio - doesn't work */
+    /* .portfolioimage {
+        float: none;
+        width: 100%;
+    } */
 }
 
 
 @media screen and (max-width: 768px) {
-    
+/* Doesn't work */
+    .sidebar {
+        display: block;
+    }
 }
 
 
